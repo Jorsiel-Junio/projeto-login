@@ -1,8 +1,40 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    #login{
+    :root {
+        --cor0: #061D27;
+        --cor1: #B8B6C1;
+        --cor2: #BE3E12;
+        --cor4: #093346;
+    }
+    main {
+        background-image: linear-gradient(to top, #000000, #093346);
+    }
+
+    #login {
+        display: flex;
         width: 90vw;
+    }
+
+    #imagem{
+        width: 30%;
+        height: 100%;
     }
 }
 
+@media screen and (min-width: 992px) {
+    main {
+        background-image: linear-gradient(to top, #000000, #093346);
+    }
+    
+    #login {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 70vw;
+    }
+
+    #imagem {
+        width: 50%;
+        height: 100%;
+    }
+}
