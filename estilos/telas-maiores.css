@@ -20,6 +20,14 @@
         width: 30%;
         height: 100%;
     }
+
+    #formulario h1 {
+        text-align: center;
+    }
+    
+    #formulario p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -36,5 +44,14 @@
     #imagem {
         width: 50%;
         height: 100%;
+    }
+
+    #formulario h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #formulario p {
+        font-size: 1.2em;
     }
 }

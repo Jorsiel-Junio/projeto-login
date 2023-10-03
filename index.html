@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/telas-menores.css">
     <link rel="stylesheet" href="estilos/telas-maiores.css">
     <title>Projeto Login</title>
@@ -15,7 +16,21 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a). Faça login para aceesar sua conta.</p>
+                <p>Seja bem-vindo(a). Faça login para acessar sua conta.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo"> 
+                        <i class="material-icons">person_4</i>
+                        <input type="email" name="form" id="form" placeholder="Seu e-mail" autocomplete="email" required>
+                        <label for="form">Usuário</label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">password</i>
+                        <input type="password" name="senha" id="senha" placeholder="Insira sua senha" autocomplete="current-password" required minlength="8" maxlength="16">
+                        <label for="senha">Senha</label> 
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci minha senha</a>
+                </form>
             </div>
         </section>
     </main>
